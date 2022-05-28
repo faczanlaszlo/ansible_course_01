@@ -1,0 +1,13 @@
+[rhel_linux]
+rhel7
+rhel8
+rhel9
+
+[centos_linux]
+centos
+
+
+[linux:children]
+rhel_linux
+centos_linux
+

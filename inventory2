@@ -1,0 +1,6 @@
+[rhel_linux]
+rhel[7:9]  #Add range begin:end
+
+[centos_linux]
+centos
+

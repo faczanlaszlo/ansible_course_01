@@ -1,0 +1,12 @@
+- name: Clear all...
+  hosts:
+    - all
+
+  tasks:
+
+    - name: reset motd
+      copy:
+        content: ""
+        dest: /etc/motd
+
+
